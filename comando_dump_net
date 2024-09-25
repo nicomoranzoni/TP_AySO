@@ -1,0 +1,1 @@
+comando: tcpdump  se ejecuta con: sudo tcpdump -i enp0s3/enp0s8
