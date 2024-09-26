@@ -1,0 +1,155 @@
+ls -l
+cd repogit/
+ll
+ls -l
+ls -l /home/vagrant/.ssh/
+pwd
+ls -l ../.ssh/
+ssh-keygen --help
+ssh-keygen -t ed25519
+ls -l ../.ssh/
+cat ../.ssh/id_ed25519.pub 
+git clone git@github.com:nicomoranzoni/TP_AySO.git
+ll
+cd TP_AySO/
+ls -la
+ll
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL/etc/os-release
+ls -l
+cd repogit/
+ls -l
+cd TP_AySO/
+whoami
+echo "Hola $(whoami)"
+echo "Hola $(whoami)" > unarchivo
+git status
+echo "Usuario=$(whoami)" > datos_usuario.txt
+git status
+git add .
+git status
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+ll -ls
+cd repogit/
+git clone git@github.com:nicomoranzoni/TP_AySO.git
+cd TP_AySO/
+pwd
+ls.
+ls -l
+cat /etc/os-release
+grep "HOME_URL" /etc/os-release
+grep "home_url" /etc/os-release
+grep 'home_url' /etc/os-release
+grep i- "home_url" /etc/os-release
+[200~grep -i 'home_url' /etc/os-release
+grep -i 'home_url' /etc/os-release
+whoami
+echo"Vagrant=$(whoami)" > datos_usuario.txt
+echo "vagrant=$(whoami)" > datos_usuario.txr
+echo "vagrant=$(whoami)" > datos_usuario.txt
+git add .
+git config --global user.email "nicomorazoni@hotmail.com"
+git config --global user.name "nicomoranzoni"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+grep "model name" /proc/cpuinfo | head -n 1 >> datos_usuario.txt
+git add . 
+git commit -m "feat: "Añadiendo infomracion de CPU"
+
+git status
+
+vagrtant up
+cd repogit/
+cd TP_AySO/
+git status
+git push
+cat datos_usuario.txt 
+git push
+cat datos_usuario.txt 
+git add .
+git status
+git push
+echo "---" >> datos_usuario.txt 
+git status
+git add .
+git commit -m "Haciendo prueba para resolver error de mi computadora"
+git push
+grep -v "nologin" /etc/passwd | sort -t ":" -k7 | head - n10 > lista_ordenada
+grep -v "nologin" /etc/passwd | sort -t ":" -k7 | head - n 10 > lista_ordenada
+grep -v "nologin" /etc/passwd | sort -t ":" -k7 | head -n 10 > lista_ordenada
+cat lista_ordenada 
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+git push
+ip -a
+ip a
+echo "comando: tcpdump  se ejecuta con: sudo tcpdump -i enp0s3/enp0s8" > comando_dump_net
+cat comando_dump_net 
+git add . 
+git commit -m "ADD: Comando para capturar y analizar el trafico de red"
+git push
+ll
+cat prueba
+cat prueba.txt
+cat << EOF >> prueba.txt 
+linea 1
+linea 2
+linea 3
+EOF
+
+cat prueba.txt 
+cat << EOF >> prueba.txt 
+EOF
+
+cat << EOF >> creartexto 
+echo "Alumno: Nicolas Moranzoni"
+echo "Division: 314"
+echo "Noche"
+EOF
+
+bash creartexto > prueba.txt 
+cat prueba.txt 
+bash creartexto > README.md 
+cat README.md 
+git add .
+git commit -m "FEAT: Añadiendo informacion del alumno" 
+git push
+history -a
+cd 
+.bash_history
+cd repogit/
+cd TP_AySO/
+$HOME/.bash_history
+history -a
+$Home 
+cat /.bash_histori
+cat /.bash_history
+cd
+cat /.bash_history
+history
+history -a
+cat bash_history
+cd repogit/
+cd TP_AySO/
+history a-
+history -a
+$HOME /. bash_history
+$HOME/ bash_history
+cd
+HOME/ bash_history
+history
+cd repogit/
+cd TP_AySO/
+$HOME/.bash_history
+hisory -a 
+history -a
+$HOME/.bash_history
+HOME/.bash_history
+sudo $HOME/.bash_history
+cd
+history
+history -a
